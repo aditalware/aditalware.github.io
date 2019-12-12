@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size:16px;
+    color: #fff;
+    background-color:white;
+    font-family: 'Crimson Text', serif;
+  
+    
+}
+#header-nav {
+    
+
+    border:2px solid black;
+    background-color:grey
+   
+}
+
+
+.navbar-brand{
+    padding-top:25px;
+}
+
+.navbar-brand h1{    /* main heading*/
+
+font-size: 3em;
+font-weight: bold;
+margin-top:10;
+margin-bottom: 0;
+color:black;
+
+
+}
+.navbar-brand :hover, .navbar-brand :focus ,.navbar-brand :active{
+    text-decoration: none;
+}
+
+
+#nav-list{
+    margin-top:15px;
+}
+#nav-list a{
+    color:black;
+    text-align:center;
+    
+    
+}
+
+#nav-list a span{
+    font-size:20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgba(22, 66, 55);
+    
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+   
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    margin-left:0px;
+    
+    font-size: 40px; /* 1vw = 1% of viewport width */
+  }
+  .options{
+    background:grey;
+}
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+   
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    margin-left:0px;
+    
+    font-size: 40px; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav{
+    background:gray;
+   
+  }
+  
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding-top: 1px;
+        height: 100px;
+        
+      }
+      .navbar-brand h1 { /* Restaurant name */
+        margin-left:1px;
+        padding-top:7px;
+        
+        font-size: 40px; /* 1vw = 1% of viewport width */
+      }
+      .row .portion{
+          width:100%;
+      }
+      #collapsable-nav{
+        background:gray;
+       
+      }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 7px;
+    height: 90px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 8px;
+    font-size: 35px; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #collapsable-nav{
+    background:pink;
+   
+  }
+
+ 
+
+}
+
+/* for very very small devices  */
+@media(max-width:479px)
+{
+    div#menu-tile, div#specials-tile, div#map-tile{
+    
+        width: 270px;
+        margin:10px auto auto auto;
+    
+      }
+      .navbar-brand{
+        padding-top:0px;
+        margin:0;
+    }
+    
+    .navbar-brand h1{    /* main heading*/
+    font-size: 2em;
+    font-weight: bold;
+    color:black
+    margin-top:5;
+    margin-bottom: 0;
+  
+    
+    }
+    #collapsable-nav{
+        background:pink;
+       
+      }
+   
+}
+
+#collapsable-nav a{
+    font-size: 1.2em;
+}
+#collapsable-nav a span{
+    font-size: 1em;
+}
+.row .portion{
+    height:1500px;
+    background: grey;
+    margin:10px;
+    overflow: hidden;
+
+}
+#menu-categories-title{
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size:25px;
+    color:black;
+    font-weight: bold;
+}
+.matter{
+    color:black;
+    
+}
+
+.options{
+  text-align:center;
+  color:black;
+  padding:0;
+
+}
